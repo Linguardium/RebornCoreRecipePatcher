@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "reborncorerecipepatcher",
+  "version": "${version}",
+  "name": "RebornCoreRecipePatcher",
+  "description": "changes reborncore's recipe string limit to be longer",
+  "authors": [
+    "Linguardium"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/RebornCoreRecipePatcher/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "RebornCoreRecipePatcher.mixins.json"
+  ],
+  "depends": {
+  }
+}
